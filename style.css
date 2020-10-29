@@ -1,21 +1,60 @@
-.right{
+/* the header left */
+
+.left{
     /* background-color: red; */
 }
-.right ul{
+.left ul{
     list-style: none;
     padding: 0%;
     display: flex;
     float: left;
 }
-.right ul li{
+.left ul li{
     margin-right: 20px;
 }
 
-.right ul li a{
+.left ul li a{
     text-decoration: none;
     color: black;
 }
 
-.right ul li a:hover{
+.left ul li a:hover{
     border-bottom: 1px solid black;
+}
+
+/* the header right */
+
+.right ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 0px;
+}
+.right ul li{
+    margin-left: 20px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right ul .gmail:hover{
+    border-bottom: 1px solid black;
+}
+.right ul .images:hover{
+    border-bottom: 1px solid black;
+}
+.google-apps:hover{
+    cursor: pointer;
+}
+.right .sign-btn{
+    background:-webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 6px 20px;
+    border: 1px solid #4285f4;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* line-height: 28px; */
+    border-radius: 2px;
+    font-family: arial,sans-serif;
 }
