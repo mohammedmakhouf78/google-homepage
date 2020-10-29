@@ -75,9 +75,10 @@
     display: flex;
     justify-content:space-around;
     width: 70%;
+    max-width: 600px;
     margin: 0 auto;
     border: 1px solid #dfe1e5;
-    padding: 5px;
+    padding: 9px;
     border-radius: 20px;
 }
 .mic,.keyboard,.text-box,.search-icon{
@@ -98,3 +99,19 @@
     color: gray;
 }
 /* end of search bar */
+
+/* start of footer */
+.search-btn{
+    margin-top: 40px;
+}
+.search-btn a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 10px;
+    background-color: #dfe1e5;
+    padding: 10px;    
+}
+.language{
+    text-decoration: none;
+}
+/* end of footer */
